@@ -11,8 +11,8 @@ public class Main {
         num = a.nextInt();
 
         res = num + (int) Math.pow(2, (num + 1) % 2);
-
-        System.out.println( " " + res + " ");
+        
+        System.out.println("The result is: " + res);
 
     }
 }
