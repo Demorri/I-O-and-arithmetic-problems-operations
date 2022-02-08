@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        int  lesson, t;
+        int  lesson;
 
         Scanner a = new Scanner(System.in);
         lesson = a.nextInt();
