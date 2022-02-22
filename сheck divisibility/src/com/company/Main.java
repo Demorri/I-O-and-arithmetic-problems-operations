@@ -8,12 +8,11 @@ public class Main {
         int n, m, answ1, answ2;
 
         System.out.print("Enter the first number: ");
-        Scanner a = new Scanner(System.in);
-        n = a.nextInt();
+        Scanner in = new Scanner(System.in);
+        n = in.nextInt();
 
         System.out.print("Enter the second number: ");
-        Scanner b = new Scanner(System.in);
-        m = a.nextInt();
+        m = in.nextInt();
 
         answ1 = n % m;
         answ2 = m % n;
