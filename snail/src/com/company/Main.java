@@ -9,16 +9,14 @@ public class Main {
         int h, a, b, days;
 
         System.out.print("The height of pillar: ");
-        Scanner z = new Scanner(System.in);
-        h = z.nextInt();
+        Scanner in = new Scanner(System.in);
+        h = in.nextInt();
 
         System.out.print("Daily moving up: ");
-        Scanner x = new Scanner(System.in);
-        a = x.nextInt();
+        a = in.nextInt();
 
         System.out.print("Daily moving down: ");
-        Scanner c = new Scanner(System.in);
-        b = c.nextInt();
+        b = in.nextInt();
 
         h -= a;
         a -= b;
