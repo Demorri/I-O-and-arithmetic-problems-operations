@@ -10,32 +10,27 @@ public class Main {
     System.out.println("Please, enter the time of the first moment");
 
     System.out.print("Enter hours: ");
-    Scanner a = new Scanner(System.in);
-    h = a.nextInt();
+    Scanner in = new Scanner(System.in);
+    h = in.nextInt();
 
     System.out.print("Enter minutes: ");
-    Scanner b = new Scanner(System.in);
-    m = a.nextInt();
+    m = in.nextInt();
 
     System.out.print("Enter seconds: ");
-    Scanner c = new Scanner(System.in);
-    s = a.nextInt();
+    s = in.nextInt();
 
     cSec1 = h * 3600 + m * 60 + s;
 
     System.out.println("Now enter the time of the second moment");
 
     System.out.print("Enter hours: ");
-    Scanner d = new Scanner(System.in);
-    h = a.nextInt();
+    h = in.nextInt();
 
     System.out.print("Enter minutes: ");
-    Scanner e = new Scanner(System.in);
-    m = a.nextInt();
+    m = in.nextInt();
 
     System.out.print("Enter seconds: ");
-    Scanner f = new Scanner(System.in);
-    s = a.nextInt();
+    s = in.nextInt();
 
     cSec2 = h * 3600 + m * 60 + s;
 
