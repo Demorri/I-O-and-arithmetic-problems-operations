@@ -8,12 +8,11 @@ public class Main {
         int n, k, z, ams;
 
         System.out.print("Number of apples: ");
-        Scanner a =new Scanner(System.in);
-        k = a.nextInt();
+        Scanner in =new Scanner(System.in);
+        k = in.nextInt();
 
         System.out.print("Number of students: ");
-        Scanner b =new Scanner(System.in);
-        n = b.nextInt();
+        n = in.nextInt();
 
         z = k % n;
         ams = n - z;
