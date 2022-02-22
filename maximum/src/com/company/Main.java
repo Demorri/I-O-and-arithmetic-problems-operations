@@ -10,12 +10,11 @@ public class Main {
         int a, b, answ;
 
         System.out.print("Enter the first number: ");
-        Scanner z = new Scanner(System.in);
-        a = z.nextInt();
+        Scanner in = new Scanner(System.in);
+        a = in.nextInt();
 
         System.out.print("Enter the second number: ");
-        Scanner x = new Scanner(System.in);
-        b = x.nextInt();
+        b = in.nextInt();
 
         answ = (a * (a / b) + b * (b / a)) / (b / a + a / b);
 
