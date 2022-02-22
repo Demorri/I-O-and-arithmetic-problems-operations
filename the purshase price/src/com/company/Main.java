@@ -7,14 +7,14 @@ public class Main {
 	    int a, b, n;
 
         System.out.print("Enter the value of rubles for one pie: ");
-        Scanner x = new Scanner(System.in);
-        a = x.nextInt();
+        Scanner in = new Scanner(System.in);
+        a = in.nextInt();
+	    
         System.out.print("Enter the value of kopecks for one pie: ");
-        Scanner c = new Scanner(System.in);
-        b = c.nextInt();
+        b = in.nextInt();
+	    
         System.out.print("Enter the number of pies: ");
-        Scanner z = new Scanner(System.in);
-        n = z.nextInt();
+        n = in.nextInt();
 
         a *= n;
         b *= n;
